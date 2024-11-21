@@ -1,0 +1,31 @@
+div{
+    background-color: turquoise;
+    color:rgb(180,0,140);
+    text-align: center;
+    margin:0%;
+    padding: 0%;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    margin:5px;
+
+}
+li{
+    margin:3px;
+    text-decoration-line: underline;
+    text-decoration-color: blue;
+    list-style-position: inside;
+}
+.container{
+    width: 1400px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    border: 2px solid red;
+}
+.blogItems{
+    flex-basis: 23%;
+    margin:1%;
+    
+}
